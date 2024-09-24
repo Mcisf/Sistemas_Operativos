@@ -1,6 +1,6 @@
 /*##################################################################################################
 #                             Autores: Mateo Maldonado y Edward Quintero                           #
-#                                         Fecha: 17/09/2024                                        #
+#                                         Fecha: 24/09/2024                                        #
 #                                    Materia: Sistemas Operativos                                  #
 #                            Tema: Procesos y comunicación entre procesos                          #
 #   Apertura de ficheros y valores con el formato "./taller_procesos N1 archivo00 N2 archivo01"    #
