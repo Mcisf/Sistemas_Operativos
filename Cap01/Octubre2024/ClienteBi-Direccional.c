@@ -7,6 +7,20 @@
 #                                               Cliente                                            #
 ####################################################################################################*/
 
+/*
+Este código implementa un cliente simple que utiliza un pipe con nombre (FIFO) para enviar cadenas de texto a un servidor, recibir las cadenas invertidas y continuar el proceso hasta que se ingrese la cadena "end".
+
+Funcionamiento:
+1. Apertura del FIFO: Se abre el archivo FIFO en modo lectura/escritura.
+2. Bucle principal:
+   - Se solicita al usuario que ingrese una cadena.
+   - Se lee la cadena y se elimina el carácter de nueva línea.
+   - Se verifica si la cadena es "end" para finalizar el programa.
+   - Se envía la cadena al servidor.
+   - Se recibe la cadena invertida del servidor.
+   - Se imprimen las cadenas enviadas y recibidas.
+*/
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <string.h>
