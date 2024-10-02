@@ -7,6 +7,22 @@
 #                                                Servidor                                          #
 ####################################################################################################*/
 
+/*
+Este código implementa un servidor simple que utiliza un pipe con nombre (FIFO) para recibir cadenas de texto de un cliente, invertirlas y enviarlas de vuelta.
+
+Funcionamiento:
+1. Creación del FIFO: Se crea un archivo FIFO si no existe, permitiendo la comunicación bidireccional entre procesos.
+2. Apertura del FIFO: Se abre el FIFO en modo lectura/escritura.
+3. Bucle principal:
+   - Se lee una cadena del FIFO.
+   - Se imprime la cadena recibida.
+   - Se verifica si la cadena es "end" para finalizar el programa.
+   - Se invierte la cadena.
+   - Se imprime la cadena invertida.
+   - Se escribe la cadena invertida en el FIFO.
+   - Se espera un tiempo antes de la siguiente iteración para permitir que el cliente lea los datos.
+*/
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <string.h>
