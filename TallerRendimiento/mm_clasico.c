@@ -1,6 +1,6 @@
 /*##################################################################################################
 #                                       Autor: Mateo Maldonado                                     #
-#                                         Fecha: 29/10/2024                                        #
+#                                         Fecha: 11/11/2024                                        #
 #                                    Materia: Sistemas Operativos                                  #
 #                              Tema: Taller de Evaluación de Rendimiento                           #
 #                     Fichero: fuente de multiplicación de matrices NxN por hilos.                 #
