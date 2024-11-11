@@ -7,6 +7,22 @@
 #   Objetivo: Evaluar el tiempo de ejecución del algoritmo clásico de multiplicación de matrices.  #
 ####################################################################################################*/
 
+/*
+ * Este programa en C implementa la multiplicación de matrices utilizando programación multihilo
+ * para mejorar el rendimiento en matrices grandes. El programa divide la carga de trabajo entre
+ * múltiples hilos, donde cada hilo es responsable de calcular un subconjunto de filas de la
+ * matriz resultante.
+ *
+ * La memoria compartida se utiliza para almacenar las matrices, optimizando el uso de memoria
+ * y facilitando el acceso entre los hilos. Se emplea un mutex para la sincronización, aunque
+ * su uso es limitado debido a que cada hilo trabaja en su propia sección de la matriz de
+ * salida, evitando conflictos de escritura.
+ *
+ * La ejecución del programa permite especificar el tamaño de la matriz (N x N) y el número
+ * de hilos mediante argumentos en la línea de comandos. Además, el programa mide y muestra
+ * el tiempo de ejecución, y permite imprimir las matrices para verificar el cálculo en
+ * casos de matrices pequeñas.
+ */
 
 #include <stdio.h>
 #include <pthread.h>
