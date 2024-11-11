@@ -7,6 +7,22 @@
 #   Objetivo: Evaluar el tiempo de ejecución del algoritmo clásico de multiplicación de matrices.  #
 ####################################################################################################*/
 
+/*
+ * Este programa en C realiza la multiplicación de matrices transpuestas utilizando múltiples hilos para 
+ * aprovechar el paralelismo y optimizar el rendimiento en el cálculo. El programa distribuye 
+ * el trabajo entre varios hilos, donde cada uno procesa una sección específica de la matriz A
+ * multiplicada por la matriz B y almacena el resultado en la matriz C.
+ *
+ * La memoria compartida se utiliza para asignar espacio para las matrices, facilitando el 
+ * acceso a los datos entre los hilos. Un mutex asegura la sincronización en ciertas secciones 
+ * críticas, aunque la mayoría del trabajo de cada hilo es independiente, ya que los cálculos
+ * de las posiciones en la matriz de resultado no se superponen.
+ *
+ * El tamaño de la matriz y el número de hilos se ingresan como argumentos en la línea de 
+ * comandos, y el programa mide el tiempo total de ejecución de la multiplicación, mostrando 
+ * los resultados y el rendimiento alcanzado.
+ */
+
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h>
