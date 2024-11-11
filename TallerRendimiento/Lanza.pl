@@ -6,6 +6,15 @@
 #          Fichero: Lanzandor para automatizar el proceso de multiplicacion de matrices            #
 ####################################################################################################
 
+# Este script en Perl automatiza la ejecución de un archivo ejecutable con diferentes configuraciones de
+# tamaño de matriz y número de hilos. Para cada combinación de parámetros, el script realiza múltiples
+# repeticiones, permitiendo realizar pruebas y recopilar resultados de manera estructurada.
+#
+# El script construye un nombre de archivo específico para cada configuración, donde guarda la salida
+# generada por el ejecutable. Esto facilita el análisis de los resultados de rendimiento con distintos
+# tamaños de matriz e hilos.
+
+
 # Guardar la ruta actual del directorio en la variable $Path
 $Path = `pwd`;
 chomp($Path); # Eliminar el salto de línea que añade `pwd`
@@ -26,10 +35,10 @@ foreach $size (@Size_Matriz) {
         # Repetir la ejecución de pruebas según el número de repeticiones
         for ($i = 0; $i < $Repeticiones; $i++) {
             # Ejecutar el archivo ejecutable con los parámetros y redirigir la salida al archivo
-            # system("$Path/$Nombre_Ejecutable $size $hilo  >> $file");
+            system("$Path/$Nombre_Ejecutable $size $hilo  >> $file");
             
             # Imprimir en consola el comando que se ejecutaría para verificar su construcción
-            printf("$Path/$Nombre_Ejecutable $size $hilo \n");
+            #printf("$Path/$Nombre_Ejecutable $size $hilo \n");
         }
         
         # Cerrar el archivo después de cada combinación de tamaño y número de hilos
