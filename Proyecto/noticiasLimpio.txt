@@ -1,0 +1,30 @@
+A:La exposicin de arte moderno se inaugura maana en el museo central.
+E:El famoso actor recibi un premio en la gala internacional.
+C:Cientficos descubren una nueva especie de insecto en la selva amaznica.
+P:Se planean reformas en el sistema de educacin pblica.
+S:Un incendio afect a varias viviendas en el centro de la ciudad.
+A:La orquesta filarmnica ofrecer un concierto gratuito este fin de semana.
+E:Un popular cantante lanza su nuevo lbum de estudio.
+C:Un equipo de astrnomos detecta una posible seal de una galaxia lejana.
+P:El presidente anuncia nuevas medidas econmicas para el prximo ao.
+S:Roban una joyera en pleno centro de la ciudad.
+A:El festival de teatro experimental reunir a artistas de todo el pas.
+E:La actriz confirm su participacin en una serie de televisin.
+C:Investigadores desarrollan una nueva vacuna contra el virus de la gripe.
+P:Se registran protestas en varias ciudades por la reforma laboral.
+S:Capturan a sospechoso de varios robos en el rea metropolitana.
+A:Una nueva galera de arte abrir sus puertas en el barrio histrico.
+E:Estrenan pelcula animada que rompe rcords de taquilla.
+C:Se descubri un nuevo exoplaneta con caractersticas similares a la Tierra.
+P:Debate en el congreso sobre la ley de proteccin ambiental.
+S:Policas rescatan a un nio perdido en el bosque.
+A:Artistas callejeros pintarn murales en varios puntos de la ciudad.
+E:Un famoso comediante inicia su gira por Latinoamrica.
+C:Logran secuenciar el ADN de una especie extinta de mamfero.
+P:Aumentan las tensiones en la asamblea nacional.
+S:Se reporta accidente de trfico en la autopista principal.
+A:La ciudad acoge la feria anual de diseo grfico y arte digital.
+E:El ltimo lbum de la banda alcanz el primer lugar en las listas.
+C:Estudios sugieren que el cambio climtico afecta a las mariposas.
+P:Aprobaron una ley para mejorar la infraestructura en zonas rurales.
+S:Encuentran fsiles de dinosaurios en un sitio arqueolgico.
